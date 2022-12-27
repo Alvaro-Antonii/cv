@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(206, 192, 192);
+    width: 100%;
+    
+}
+
+.col-3{
+    background-color: brown;
+    margin: 3px;
+    height: 300px;
+}
+.col-3:hover{
+    background-color: rgb(243, 88, 88);
+}
