@@ -83,8 +83,25 @@ document.getElementById("git").addEventListener("click",function(){
   this.style.background = "green";
 })
 
+//onclick
+
+function opa(){
+  document.getElementById("fre").style.background = "rgb(169, 223, 69)";
+  document.getElementById("a").style.background = "#eccbcb";
+  document.getElementById("b").style.background = "rgb(219, 207, 150)";
+  document.getElementById("dd").style.background = "rgb(244, 228, 156)";
+
+}
 
 
+function opb(){
+  document.getElementById("tit").style.fontFamily = "Verdana";
+  document.getElementById("a").style.fontFamily = "'Playfair Display'";
+  document.getElementById("b").style.fontFamily = "'Franklin Gothic Medium'";
+  document.getElementById("b").style.fontSize = "16px";
+  document.getElementById("dd").style.fontFamily = "'Arial Narrow'";
+  
+}
 
 
 

@@ -58,8 +58,9 @@ h3{
     height: 200px;
     padding: 3px;
     margin: 1px;
-    background-color: #eccbcb;
+    background-color: #eccbcb; /*#eccbcb*/
     border: 0;
+   
 }
 
 #tit{

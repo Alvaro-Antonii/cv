@@ -19,7 +19,7 @@
         
         <!----Navegador-------->
        
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark" id="cab">
             <a class="navbar-brand" href="#" id="ini">CURRICULUM VITAE</a>
             
         </nav>
@@ -46,7 +46,7 @@
                 <div class="row justify-content-evenly">
                 
                   <div class="col-11">
-                    <h3>Información personal</h3>
+                    <h3 >Información personal</h3>
                     <div>
                       <ul>
                         <li><p id="nom"></p></li>
@@ -57,7 +57,7 @@
                     </div>
                   </div>
                   <div class="col-11"id="inf">
-                    <h3>Capacitaciones</h3>
+                    <h3 >Capacitaciones</h3>
                     <dl class="dl-horizontal">
                       <dt>Recursos Humanos</dt>
                       <dd id="rh"></dd>
@@ -85,11 +85,11 @@
                 <div class="row justify-content-evenly">
                 
                   <div class="col-11">
-                    <h3>Experiencia laboral</h3>
+                    <h3 >Experiencia laboral</h3>
 
                     <div class="fin">
-                      <h4>Vicedirectora Financiero</h4>
-                      <h5>Empresa Increíble, Marzo 2018 - presente</h5>
+                      <h4 >Vicedirectora Financiero</h4>
+                      <h5 >Empresa Increíble, Marzo 2018 - presente</h5>
                       <ul>
                         <li>Diseño , organización y ejecución de las estrategias financieras y contables de la empresa.</li>
                         <li>Planeamiento de presupuesto y seguimiento de cartera de inversiones nacionales y extranjeras.</li>
@@ -98,8 +98,8 @@
                       <hr class="mb-4" />
                     </div>
                     <div class="fin">
-                      <h4>Asesora Financiera Sr</h4>
-                      <h5>Empresa Increíble, Agosto 2017 - Julio 2018</h5>
+                      <h4 >Asesora Financiera Sr</h4>
+                      <h5 >Empresa Increíble, Agosto 2017 - Julio 2018</h5>
                       <ul>
                         <li>Estudio de propuesta de inversiones en base a la rentabilidad y viabilidad económica.
                           </li>
@@ -109,8 +109,8 @@
                       <hr class="mb-4" />
                     </div>
                     <div class="fin">
-                      <h4>Asesora Financiera Jr</h4>
-                      <h5>Empresa Increíble, Abril 2015 - Julio 2017</h5>
+                      <h4 >Asesora Financiera Jr</h4>
+                      <h5 >Empresa Increíble, Abril 2015 - Julio 2017</h5>
                       <ul>
                         <li>Análisis de oportunidades de negocio. </li>
                         
@@ -125,7 +125,7 @@
 
                   </div>
                   <div class="col-11" id="inf">
-                    <h3>Educación</h3>
+                    <h3 >Educación</h3>
                     <ol>
                       <li id="secu"></li>
                       <li id="uni"></li>
@@ -142,7 +142,7 @@
             <!---Debajo-->
             <div class="row justify-content-evenly">
                 
-              <div class="col-8">  
+              <div class="col-8" id="dd">  
                 <h3>Habilidades</h3>
                 <a href="#ing">Inglés</a>
                 <a href="#cw">Copywriting</a>
@@ -158,16 +158,27 @@
           
 
           <!----Footer-->
-          <div class="container-fluid my-5">
+          <div class="container-fluid my-5" id="pie">
             <!-- Footer -->
             <footer
                     class="text-center text-lg-start text-white" 
                     style="background-color: #3e4551"
                     >
               <!-- Grid container -->
+
               <div class="container-fluid p-4 pb-0">
-                <!-- Section: Links -->
-                
+               
+                <section class="">
+                  <p class="d-flex justify-content-center align-items-center">
+                    
+                    <button type="button" class="btn btn-outline-light btn-floating m-1" id="btn" onclick="opa()">
+                      Opción A
+                    </button>
+                    <button type="button" class="btn btn-outline-light btn-floating m-1" id="btn" onclick="opb()">
+                      Opción B
+                    </button>
+                  </p>
+                </section>
                 
 
 
